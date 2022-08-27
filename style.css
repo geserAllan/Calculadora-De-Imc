@@ -46,7 +46,7 @@ main {
     text-align: center;
 }
 .input label {
-    font:  1.5rem sans-serif;
+    font: bold 1.5rem sans-serif;
 }
 button {
     width: 300px;
