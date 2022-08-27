@@ -9,13 +9,13 @@ main {
 .container {
     display: flex;
     flex-direction: column;
-    background: rgb(255,198,0);
+    background: rgb(192, 243, 255);
     width: 400px;
     height: 600px;
     align-items: center;
     justify-content: space-evenly;
     border-radius: 20px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.303);
+    box-shadow: 0 0 20px rgba(130, 255, 249, 0.385);
 }
 .title {
     display: flex;
@@ -46,14 +46,14 @@ main {
     text-align: center;
 }
 .input label {
-    font: bold 1.5rem sans-serif;
+    font:  1.5rem sans-serif;
 }
 button {
     width: 300px;
     height: 40px;
     font: bold 1.2rem sans-serif ;
     background: #000;
-    color: rgb(255,198,0);
+    color: rgb(192, 243, 255);
     outline: none;
     border-radius: 5px;
     cursor: pointer;
@@ -66,9 +66,9 @@ button {
     height: 150px;
     border-radius: 5px;
     font:  italic 1.5rem sans-serif;
-    box-shadow: 0px 0px 10px black;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.352);
     background: #000;
-    color: rgb(255,198,0);
+    color: rgb(255, 255, 255);
     padding: 20px;
     box-sizing: border-box;
     user-select: none;
