@@ -11,7 +11,6 @@ function imc() {
         
         const valorImc = (peso / (altura*altura)).toFixed(1);
         
-
         let classificaçãoImc = '';
         if (valorImc < 18.5) {
             classificaçãoImc = 'abaixo do peso.';
@@ -30,6 +29,6 @@ function imc() {
     } else {
         resultado.textContent = 'Preencha tudo!!'
     }
-
+}
 
 calcular.addEventListener('click',imc)
